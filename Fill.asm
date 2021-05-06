@@ -19,7 +19,9 @@ D=M
 M=-1
 @SETPIXELS
 D;JGT
+@value
 M=0
+@SETPIXELS
 0;JMP
 
 //loop for iterating of screen registers and setting to stored value
@@ -38,6 +40,3 @@ D=D-A
 D;JEQ
 @SETPIXELS
 0;JMP
-
-
-
